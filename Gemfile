@@ -2,6 +2,7 @@ source 'http://rubygems.org'
 
 gem 'unicorn'
 gem 'rails', '3.0.0.rc'
+gem "sqlite3-ruby", :require => "sqlite3"  
 
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
